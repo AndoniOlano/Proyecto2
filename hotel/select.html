@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PETIT HOTEL - Contacto</title>
+<link href="estiloshotel.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="general">
+  <div id="cab"></div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="servicios.html">SERVICIOS</a></li>
+      <li><a href="habitaciones.html">HABITACIONES</a></li>
+      <li><a href="restaurante.html">RESTAURANTE</a></li>
+      <li><a href="salones.html">SALONES</a></li>
+      <li><a href="tarifas.html">TARIFAS</a></li>
+      <li><a href="contacto2.html">CONTACTO</a></li>
+    </ul>
+  </div>
+ 
+  
+<?php 
+$conexion = mysqli_connect("localhost", "root", "Messi88", "HOTEL");
+$result = mysql_query("SELECT nombre,apellidos,telefono,email FROM DatosPersonales", $conexion); 
+echo "<table border = '1'> \n"; 
+echo "<tr><td>Nombre</td><td>Apellidos</td><td>telefono</td><td>E-Mail</td></tr> \n"; 
+while ($row = mysql_fetch_row($result)){ 
+       echo ""<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td></tr> \n"; 
+} 
+echo "</table> \n"; 
+?> 
+</div>
+</div>
+  
+</body> 
+</html> 
+

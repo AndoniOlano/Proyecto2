@@ -1,0 +1,171 @@
+body {
+	background-color: #030;
+}
+#menu ul {
+	list-style-type: none;
+	background-color: #B1BF36;
+	height: 24px;
+	padding-top: 0px;
+	padding-right: 55px;
+	padding-bottom: 0px;
+	padding-left: 55px;
+	margin: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #060;
+	border-bottom-color: #060;
+}
+#cuerpo {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+h2 {
+	color: #879229;
+	font-size: 19px;
+}
+
+#menu ul li {
+	display: inline;
+}
+#menu ul li a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	display: block;
+	float: left;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 20px;
+	text-align: left;
+	text-decoration: none;
+	background-image: url(images/bolita2.gif);
+	background-repeat: no-repeat;
+	background-position: 1px center;
+}
+#menu ul li a:hover {
+	background-image: url(images/bolita.gif);
+	background-repeat: no-repeat;
+	background-position: 1px center;
+	color: #060;
+}
+
+
+
+#general {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#cab {
+	height: 300px;
+	background-image: url(images/cabecera.jpg);
+}
+#pie {
+	background-image: url(images/pie.jpg);
+	height: 39px;
+	font-size: 11px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 10px;
+}
+.imgpeques {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.imggrandes {
+	margin-right: 60px;
+	float: right;
+}
+.piefoto {
+	font-size: 11px;
+	color: #093;
+}
+
+#pie a   {
+	color: #030;
+	text-decoration: none;
+}
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#pie a:hover   {
+	background-color: #C1CA5D;
+}
+.flotarDcha {
+	float: right;
+}
+.flotarIzq {
+	float: left;
+	width: 400px;
+}
+
+#cuerpo ul {
+	margin-left: 45px;
+	list-style-type: none;
+	list-style-image: url(images/ok.jpg);
+	list-style-position: outside;
+}
+.petit {
+	color: #060;
+	background-color: #C7D262;
+}
+table caption {
+	font-size: 14px;
+	font-weight: bold;
+	color: #C60;
+}
+table {
+	width: 75%;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+
+th {
+	background-color: #F1E8A7;
+	color: #C60;
+	font-weight: normal;
+}
+td {
+	text-align: center;
+	background-color: #F2F7C8;
+}
+#form1 {
+	width: 80%;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	padding: 15px;
+	background-color: #F2F7C8;
+}
+.milabel1 {
+	display: block;
+	float: left;
+	width: 100px;
+}
+.campo {
+	border: 1px solid #060;
+}
+legend {
+	font-weight: bold;
+	color: #C60;
+}
+fieldset {
+	padding: 15px;
+	margin-bottom: 15px;
+}

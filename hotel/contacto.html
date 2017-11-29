@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PETIT HOTEL - Contacto</title>
+<link href="estiloshotel.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="general">
+  <div id="cab"></div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="servicios.html">SERVICIOS</a></li>
+      <li><a href="habitaciones.html">HABITACIONES</a></li>
+      <li><a href="restaurante.html">RESTAURANTE</a></li>
+      <li><a href="salones.html">SALONES</a></li>
+      <li><a href="tarifas.html">TARIFAS</a></li>
+      <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+  </div>
+  <div id="cuerpo">
+    <h2>PETIT HOTEL - Contacto</h2>
+    <p>Estaremos encantados de atender sus reservas. <br />
+      No obstante, en caso de no encontrar disponibilidad, puede ponerse en contacto directamente con el hotel. <br />
+      Tfno de reservas: 943 558866<br />
+    Email: <a href="mailto:andoni0019@gmail.com">andoni0019@gmail.com </a></p>
+    <form action="mailto:andoni0019@gmail.com" method="post" enctype="text/plain" name="form1" id="form1">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <p>
+          <label for="nombre" class="milabel1">Nombre:</label>
+          <input name="nombre" type="text" class="campo" id="nombre" />
+        </p>
+        <p>
+          <label for="apellidos" class="milabel1"> Apellidos:</label>
+          <input name="apellidos" type="text" class="campo" id="apellidos" />
+        </p>
+        <p>
+          <label for="email" class="milabel1">Email:</label>
+          <input name="email" type="text" class="campo" id="email" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Datos alojamiento </legend>
+        <p>
+          <label for="diallegada" class="milabel1"> Día de llegada:</label>
+          <input name="diallegada" type="text" class="campo" id="diallegada" value="dd/mm/aaaa" />
+          <label for="diasalida">Día de salida:</label>
+          <input name="diasalida" type="text" class="campo" id="diasalida" value="dd/mm/aaaa" />
+        </p>
+        <p>
+          <label for="" class="milabel1">Nº  personas:</label>
+          <input type="text" class="campo" value="1" size="1" />
+        </p>
+        <p> Habitaciones necesarias :
+  <input type="text" class="campo" value="0" size="1" />
+          <label for="">Individual</label>
+          &nbsp;&nbsp;&nbsp;
+          <input type="text" class="campo" value="0" size="1" />
+          <label for="">Doble</label>
+          &nbsp;&nbsp;&nbsp;
+          <input name="habitacionTriple" type="text"  class="campo" value="0" size="1" />
+          <label for="habitacionTriple">Suite</label>
+        </p>
+        <p>
+          <label for="regimen1" class="milabel1">Régimen:</label>
+          <input name="regimen" type="radio" value="sin desayuno" id="regimen1" />
+          <label for="regimen1">Sin desayuno</label>
+          <input name="regimen" type="radio" id="regimen2" value="con desayuno" checked="checked" />
+          <label for="regimen2">Con desayuno</label>
+        </p>
+        <p>
+          <label for="observaciones" class="milabel1">Observaciones:</label>
+          <textarea name="observaciones" cols="40" class="campo" id="observaciones"></textarea>
+        </p>
+      </fieldset>
+      <input name="Submit" type="submit" class="campo" id="Submit" value="Enviar" />
+      <input name="Submit2" type="reset" class="campo" value="Restablecer" />
+    </form>
+  </div> 
+  <div id="pie"><a href="#">info@petithotel.com</a></div>
+</div>
+</body>
+</html>
